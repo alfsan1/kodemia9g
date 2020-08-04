@@ -1,0 +1,4 @@
+componente es utilidades
+
+usar clases por utilidades
+
