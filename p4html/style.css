@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-evenly;
+  
+    
+
+    
+}
+.primer-ul{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    border: 2px solid black;
+    
+    
+}
+li{
+    display: flex;
+    padding-left: 20px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    padding-right: 10px; 
+}
+button{
+    background-color: aqua;
+    border-style: none;
+    padding: 5px;
+    box-shadow:  2px grey;
+}
+ button:hover{
+     background-color: wheat;
+ }

@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+main{
+    
+}
 
 nav{
     background-color: black;
@@ -39,6 +42,7 @@ nav{
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
 }
 .first-text{
     font-family: Arial, Helvetica, sans-serif;
@@ -49,15 +53,31 @@ ol{
 .font-style-bold{
     font-weight: 900;
 }
+.section1{
+    border-style: solid;
+   
+}
+.forms{
+    
+    border-style: solid;
+    justify-content: right;
+    text-align: left;
+
+    
+}
 .formulario{
-    background-color: skyblue;
-    float: right;
-    width: 30%;
-    display: flex;
+    text-align: left;
+    background-color: #3F5280;
+    width: 100%;
     flex-direction: column;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .color-yellow{
     color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .raya-amarilla-horizontal{
@@ -66,9 +86,9 @@ ol{
     width: 50%;
     border-style: inset;
 }
-.font-family-sans{
+h3 {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
+    text-align: left;
 }
 .download-button{
     width: 50%;
@@ -77,8 +97,7 @@ ol{
     border-color: white;
 }
 .aside{
-    
-    
+    padding: 30px;
 }
    
 .imagen1{
@@ -87,4 +106,30 @@ ol{
 }
 .texto-final{
     padding: 10px;
+}
+
+.raya-amarilla-vertical{
+    border-right: goldenrod;
+    border-width: 10px;
+    border-style: dotted;
+}
+.red{
+    color: red;
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-group{
+    padding: 10px;
+    align-self: center;
+}
+main{
+   display: flex;
+   justify-content: space-between;
+}
+.article-2{ 
+    display: flex;   
+    border-width: 1px;
+    border-color: black;
+    border-style: double;
 }
