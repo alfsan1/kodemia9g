@@ -1,0 +1,11 @@
+$border: grey
+img{
+    background-color: grey;
+}
+.card{
+    border: 8px solid grey;
+    max-width: 33%;
+}
+.text{
+    border: 1px solid grey;
+}
