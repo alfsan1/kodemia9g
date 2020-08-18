@@ -1,11 +1,24 @@
-$border: grey
-img{
-    background-color: grey;
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.card{
-    border: 8px solid grey;
-    max-width: 33%;
+
+img {
+  background-color: blue;
 }
-.text{
-    border: 1px solid grey;
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 33%;
+  border: grey solid 3px;
 }
+
+.text {
+  border: grey solid 3px;
+}
+
+.list {
+  border: grey solid 3px;
+}
+/*# sourceMappingURL=style.css.map */

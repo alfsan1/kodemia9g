@@ -1,7 +1,21 @@
+$border: grey solid 3px;
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
 img{
-    background-color: grey;
+    background-color: blue;
 }
 .card{
-    border: 6px solid grey;
-    padding: 5px;
+    display: flex;
+    max-width: 33%;
+    border: $border;
+    
+    }
+
+.text{
+    border: $border;
+}
+.list{
+    border: $border;
 }
