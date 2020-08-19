@@ -1,0 +1,27 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.container .container2 {
+  padding-left: 30px;
+}
+
+.container .container2 h3 {
+  font-family: "Manrope", sans-serif;
+}
+
+.container .container2 img {
+  border-radius: 50%;
+  max-width: 40px;
+}
+
+.container .container2 p {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
