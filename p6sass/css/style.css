@@ -1,8 +1,20 @@
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 10px;
   border: 1px black solid;
 }
@@ -23,5 +35,44 @@
 .container .container2 p {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
+}
+
+.container .container2 .container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .container2 .container3 h5 {
+  margin: 0;
+}
+
+.container .container2 .container3 p {
+  margin: 0;
+}
+
+.container .container2 .container3 .name {
+  margin-left: 10px;
+}
+
+.container .container2 .container3 .tooltip-wrapper {
+  position: relative;
+}
+
+.container .container2 .container3 .tooltip-wrapper .button {
+  background-color: grey;
+  position: absolute;
+  left: 220px;
+  bottom: 20px;
+}
+
+.container .container2 .container3 .tooltip-wrapper .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
 }
 /*# sourceMappingURL=style.css.map */
