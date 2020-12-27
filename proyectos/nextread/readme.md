@@ -24,3 +24,6 @@ push the result into the html each time the button is pushed
 - save the result in the page each time it is pressed
 - be able to choose genre or length of book, or to filter what kind of book to be randomized
 - bring picture of book matching isbn from book from an api and pull that picture that might be in the web. 
+
+// Notas adicionales
+al inicio no pasaba nada por que no ponía nada del click, jalaba la variable y empujaba con inner.html pero no ponía nada onclick. 

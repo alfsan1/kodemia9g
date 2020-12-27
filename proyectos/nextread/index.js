@@ -1,8 +1,4 @@
 
-
-
-
-
 var title = document.getElementById("title")
 var author = document.getElementById("author")
 var pages = document.getElementById("pages")
@@ -8699,9 +8695,6 @@ let bookData= [
     }
   ]
 
-
-
-
 function print() {
       let nextRead = bookData[Math.floor(Math.random() * bookData.length)] 
       console.log(nextRead) 
@@ -8713,3 +8706,4 @@ function print() {
       }
       btn.onclick = print
 }
+
